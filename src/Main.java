@@ -7,15 +7,15 @@ public class Main {
     private static final List<String> words = new ArrayList<>(List.of("один", "два","два", "три", "три", "три"));
     public static void main(String[] args) {
         task1();
-        spase();
+        space();
         task2();
-        spase();
+        space();
         task3();
-        spase();
+        space();
         task4();
     }
 
-    public static void spase() {
+    public static void space() {
         System.out.print(" ");
     }
 //    Напишите код, с помощью которого можно напечатать только нечетные числа в консоль.
